@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rafael Monteiro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-30 12:45:27 "/>
+        <attribute name="created" value="UmFmYWVsIE1vbnRlaXJvO0RFU0tUT1AtMExKMUxGNDsyMDIxLTEyLTMwOyIxMjozMjozOCAiOzM2Nzc="/>
+        <attribute name="edited" value="UmFmYWVsIE1vbnRlaXJvO0RFU0tUT1AtMExKMUxGNDsyMDIxLTEyLTMwOyIxMjo0NToyNyAiOzI7Mzc4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numcartao" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;Boa!&quot;" newline="True"/>
+                    <input variable="numcartao"/>
+                </then>
+                <else>
+                    <output expression="&quot;Arruma um cart&#227;o de cr&#233;dito, sen&#227;o j&#225; era&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

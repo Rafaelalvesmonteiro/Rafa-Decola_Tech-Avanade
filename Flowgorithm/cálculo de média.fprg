@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rafael Monteiro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-30 12:49:12 "/>
+        <attribute name="created" value="UmFmYWVsIE1vbnRlaXJvO0RFU0tUT1AtMExKMUxGNDsyMDIxLTEyLTI5OyIxMTozNjoyMiAiOzM2ODE="/>
+        <attribute name="edited" value="UmFmYWVsIE1vbnRlaXJvO0RFU0tUT1AtMExKMUxGNDsyMDIxLTEyLTMwOyIxMjo0OToxMiAiOzM7Mzc4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! vai pras f&#233;rias&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;xiii, bora pra recupera&#231;&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
